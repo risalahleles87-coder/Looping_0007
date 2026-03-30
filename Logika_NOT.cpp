@@ -10,4 +10,11 @@ int main(){
     cout<<"Masukkan nilai Bahasa Inggris = ";
     cin>>nilB;
 
+    rerata = (nilB+nilM)/2;
+
+    if (!(rerata < 60) )
+        status = "Lulus";
+    else
+        status = "Tidak lulus";
+
     
